@@ -23,7 +23,7 @@ export default function Home() {
       <nav className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-200">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
-            <a href="/" className="font-bold text-2xl text-indigo-600">Relatable Resolutions</a>
+            <a href="/" className="font-bold text-2xl text-indigo-600">Relatable Resonations</a>
             <div className="hidden md:flex gap-8">
               <a href="/" className="text-gray-700 hover:text-indigo-600 transition font-semibold text-indigo-600">Home</a>
               <a href="/about" className="text-gray-700 hover:text-indigo-600 transition">About</a>
@@ -103,7 +103,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="bg-gray-900 text-white py-12">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <p className="text-gray-400">© 2025 Relatable Resolutions. All rights reserved.</p>
+          <p className="text-gray-400">© 2025 Relatable Resonations. All rights reserved.</p>
         </div>
       </footer>
     </div>

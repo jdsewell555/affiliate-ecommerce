@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Relatable Resolutions - Practical Solutions for Everyday Life",
+  title: "Relatable Resonations - Practical Solutions for Everyday Life",
   description: "Discover actionable tips, tools, and resources for achieving your goals and building better habits.",
 };
 
