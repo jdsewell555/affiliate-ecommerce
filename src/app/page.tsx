@@ -100,6 +100,78 @@ export default function Home() {
         </div>
       </section>
 
+      {/* ✏️ SOCIAL MEDIA SECTION - Follow us on social platforms */}
+      <section className="py-20 bg-gradient-to-r from-indigo-600 to-blue-600">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="text-4xl font-bold text-white mb-6">Follow Us on Social Media</h2>
+          <p className="text-xl text-indigo-100 mb-12">Stay connected and get updates on new resources and affiliate deals</p>
+          
+          {/* 
+            ✏️ EDIT YOUR SOCIAL MEDIA LINKS HERE
+            Replace the placeholder URLs with your actual social media accounts
+            Example: https://instagram.com/yourname
+          */}
+          <div className="flex flex-wrap justify-center gap-6">
+            {/* Instagram */}
+            <a 
+              href="https://instagram.com" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center w-16 h-16 bg-white rounded-full hover:bg-gray-100 transition transform hover:scale-110"
+              title="Follow us on Instagram"
+            >
+              <span className="text-2xl">📷</span>
+            </a>
+            
+            {/* Facebook */}
+            <a 
+              href="https://facebook.com" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center w-16 h-16 bg-white rounded-full hover:bg-gray-100 transition transform hover:scale-110"
+              title="Follow us on Facebook"
+            >
+              <span className="text-2xl">👍</span>
+            </a>
+            
+            {/* TikTok */}
+            <a 
+              href="https://tiktok.com" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center w-16 h-16 bg-white rounded-full hover:bg-gray-100 transition transform hover:scale-110"
+              title="Follow us on TikTok"
+            >
+              <span className="text-2xl">🎵</span>
+            </a>
+            
+            {/* YouTube */}
+            <a 
+              href="https://youtube.com" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center w-16 h-16 bg-white rounded-full hover:bg-gray-100 transition transform hover:scale-110"
+              title="Subscribe on YouTube"
+            >
+              <span className="text-2xl">▶️</span>
+            </a>
+            
+            {/* Twitter/X */}
+            <a 
+              href="https://twitter.com" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center w-16 h-16 bg-white rounded-full hover:bg-gray-100 transition transform hover:scale-110"
+              title="Follow us on Twitter"
+            >
+              <span className="text-2xl">𝕏</span>
+            </a>
+          </div>
+
+          <p className="text-indigo-100 mt-12 text-sm">💬 Tag us in your posts when you shop through our affiliate links!</p>
+        </div>
+      </section>
+
       {/* Footer */}
       <footer className="bg-gray-900 text-white py-12">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
