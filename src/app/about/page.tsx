@@ -57,10 +57,7 @@ export default function About() {
               />
               {/* Example: src="https://images.canva.com/your-image-link-here.jpg" */}
             </div>
-            <div>
-              <h2 className="text-4xl font-bold text-gray-900 mb-6">Our Story</h2>
-              {/* 
-                STEP 3: CUSTOMIZE YOUR STORY
+            
             {/* ✏️ SECTION 2: YOUR STORY & COMPANY DESCRIPTION */}
             <div>
               <h2 className="text-4xl font-bold text-gray-900 mb-6">Our Story</h2>
@@ -69,17 +66,19 @@ export default function About() {
               <p className="text-gray-600 text-lg mb-4">
                 Founded with a passion for helping people turn their resolutions into reality, Relatable Resolutions combines practical strategies with curated resources.
               </p>
-              {/* ← EDIT: Who are you? Why did you start this? */}
               
               {/* EDIT: Change this paragraph */}
               <p className="text-gray-600 text-lg mb-4">
                 We believe that achieving your goals doesn't have to be complicated. It's about finding the right tools, strategies, and support systems.
               </p>
-              {/* ← EDIT: What's your approach? What do you believe in? */}
               
               {/* EDIT: Change this paragraph */}
               <p className="text-gray-600 text-lg">
                 Through our carefully selected affiliate partnerships, we recommend products and services we genuinely believe in to help you succeed.
+              </p>
+            </div>
+          </div>
+
           {/* ✏️ SECTION 3: YOUR MISSION, VALUES, AND VISION */}
           <div className="grid md:grid-cols-3 gap-8">
             <div className="p-8 bg-indigo-50 rounded-xl">
@@ -97,7 +96,6 @@ export default function About() {
               {/* EDIT: Change your vision */}
               <p className="text-gray-600">A world where everyone has access to the tools and knowledge they need to succeed.</p>
             </div>
-          </div>v>
           </div>
         </div>
       </section>
